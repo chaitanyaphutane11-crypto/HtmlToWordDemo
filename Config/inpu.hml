@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HTML to Word Converter Demo</title>
+
+  <!-- External CSS files -->
+  <link rel="stylesheet" href="Config/styles1.css">
+  <link rel="stylesheet" href="Config/styles2.css">
+
+  <!-- Embedded CSS block -->
+  <style>
+    .italicText {
+      font-style: italic;
+      color: green; /* overrides external italicText color if any */
+    }
+    .customHighlight {
+      background-color: orange;
+    }
+  </style>
+</head>
+<body>
+  <!-- Heading styled via external CSS -->
+  <h1 class="blueHeading">Circular Reference Report</h1>
+
+  <!-- Paragraph styled via external CSS -->
+  <p class="highlight">This document highlights detected circular references.</p>
+
+  <!-- Paragraph styled via embedded CSS -->
+  <p class="customHighlight">This paragraph uses an embedded style block.</p>
+
+  <!-- Mixed inline + class styles -->
+  <p>
+    Mixed styles: 
+    <span class="italicText">italic text (class, embedded CSS)</span> and 
+    <span style="color:red;">red text (inline style)</span> together.
+  </p>
+
+  <!-- Table styled via external CSS -->
+  <table>
+    <tr>
+      <td class="tableHeader">Cell</td>
+      <td class="tableHeader">Formula</td>
+    </tr>
+    <tr>
+      <td>A1</td>
+      <td>=A1+B2</td>
+    </tr>
+    <tr>
+      <td>B2</td>
+      <td>=B2+C3</td>
+    </tr>
+  </table>
+</body>
+</html>

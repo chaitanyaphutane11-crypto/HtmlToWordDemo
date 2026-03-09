@@ -1,0 +1,13 @@
+.blueHeading {
+  font-size: 32px;
+  text-align: center;
+}
+
+.italicText {
+  font-style: italic;
+}
+
+.tableHeader {
+  background-color: lightgray;
+  font-weight: bold;
+}

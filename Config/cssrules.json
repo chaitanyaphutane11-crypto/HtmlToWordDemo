@@ -1,0 +1,12 @@
+{
+  "rules": [
+    { "selector": "color:red", "wordStyle": { "type": "Color", "value": "FF0000" } },
+    { "selector": "color:blue", "wordStyle": { "type": "Color", "value": "0000FF" } },
+    { "selector": "font-weight:bold", "wordStyle": { "type": "Bold" } },
+    { "selector": "font-style:italic", "wordStyle": { "type": "Italic" } },
+    { "selector": "background-color:yellow", "wordStyle": { "type": "Shading", "fill": "FFFF00" } },
+    { "selector": "background-color:lightgray", "wordStyle": { "type": "Shading", "fill": "D3D3D3" } },
+    { "selector": "font-size:32px", "wordStyle": { "type": "FontSize", "value": "64" } },
+    { "selector": "text-align:center", "wordStyle": { "type": "Alignment", "value": "Center" } }
+  ]
+}
